@@ -1,0 +1,10 @@
+<service>
+  <id>aria2</id>
+  <description>downloader daemon</description>
+  <executable>C:\ProgramData\scoop\shims\aria2c.exe</executable>
+  <arguments>--conf-path C:\Users\Administrator\.aria2\aria2.conf</arguments>
+  <workingdirectory>C:\ProgramData\aria2</workingdirectory>
+  <depend>tcpip</depend>
+  <logpath>C:\ProgramData\aria2\logs</logpath>
+  <log mode="reset" />
+</service>
